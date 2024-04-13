@@ -39,6 +39,7 @@
             }
         },
         methods: {
+            //  Add new product
                 addProduct() {
                     this.products.push({
                         name: this.newProduct.name,
