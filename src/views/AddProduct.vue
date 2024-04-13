@@ -40,14 +40,12 @@
         },
         methods: {
                 addProduct() {
-                    // Push new product to the products array
                     this.products.push({
                         name: this.newProduct.name,
                         description: this.newProduct.description,
                         price: this.newProduct.price
                     });
 
-                    // Reset the form fields after adding
                     this.newProduct.name = '';
                     this.newProduct.description = '';
                     this.newProduct.price = null;
